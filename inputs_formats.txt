@@ -1,0 +1,13 @@
+init [file_name]
+compare [image_name]
+
+
+filename
+number_of_building
+building_name
+number_of_image
+image_1
+.
+.
+.
+image_n
