@@ -21,7 +21,8 @@ public:
   std::list< Feature > getFeatures();
   bool addFeature( std::string );
   void saveImages();
-  bool itsMe( cv::Mat input );
+  void saveImagesFeature();
+  bool itsMe( Feature input );
 
   friend bool operator>( const Building& left, const Building& right );
 	friend bool operator<( const Building& left, const Building& right );
